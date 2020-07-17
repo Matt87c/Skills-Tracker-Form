@@ -34,6 +34,7 @@ public class SkillsController {
                         "<h2>Skills to learn</h2>" +
                         "<form method = 'post' action = '/success'>" +
                         "<label>Enter your name: <input type = 'text' name = 'username' /></label><hr>" +
+            
                         "<label>Choose a skill:"
                         + "<select name='firstSkill'>"
                         + "<option value='Java'>Java</option>"
@@ -41,25 +42,24 @@ public class SkillsController {
                         + "<option value='Typescript'>Typescript</option>"
                         + "</select></label><br>" +
 
-        "<label>Choose a skill:"
-                + "<select name='secondSkill'>"
-                + "<option value='Java'>Java</option>"
-                + "<option value='Javascript'>Javascript</option>"
-                + "<option value='Typescript'>Typescript</option>"
-                + "</select></label><br>" +
+                        "<label>Choose a skill:"
+                        + "<select name='secondSkill'>"
+                        + "<option value='Java'>Java</option>"
+                        + "<option value='Javascript'>Javascript</option>"
+                        + "<option value='Typescript'>Typescript</option>"
+                        + "</select></label><br>" +
 
-        "<label>Choose a skill:"
-                + "<select name='thirdSkill'>"
-                + "<option value='Java'>Java</option>"
-                + "<option value='Javascript'>Javascript</option>"
-                + "<option value='Typescript'>Typescript</option>"
-                + "</select></label><br>" +
+                        "<label>Choose a skill:"
+                        + "<select name='thirdSkill'>"
+                        + "<option value='Java'>Java</option>"
+                        + "<option value='Javascript'>Javascript</option>"
+                        + "<option value='Typescript'>Typescript</option>"
+                        + "</select></label><br>" +
 
-        "<input type = 'submit' value = 'Show me the skills!' />" +
+                        "<input type = 'submit' value = 'Show me the skills!' />" +
                 "</form>" +
                 "</body>" +
                 "</html>";
-
         return html;
     }
 
@@ -83,7 +83,6 @@ public class SkillsController {
                         "</ol>" +
                         "</body>" +
                         "</html>";
-
         return html;
     }
 }
