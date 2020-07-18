@@ -63,7 +63,7 @@ public class SkillsController {
         return html;
     }
 
-    @RequestMapping(method = {RequestMethod.GET, RequestMethod.POST}, value="success")
+    @PostMapping("success")
     @ResponseBody
     public String skillsTrackerSuccess(
             @RequestParam String username,
